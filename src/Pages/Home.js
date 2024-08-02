@@ -14,9 +14,9 @@ function Home() {
       h11.current,
       {
         x: "-100%",
-        delay: 0.8,
+        delay: 0.5,
         opacity: 0,
-        duration: 2,
+        duration: 1,
         ease: "Power3.easeOut",
       },
       "<"
