@@ -3,7 +3,8 @@ import React from "react";
 function Project({ title, image, description, techstack, previewLink, githubLink }) {
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <img src={image} alt="" loading="lazy" />
+      <img src={image} alt="" loading="lazy" className="w-full h-48"/>
+      <hr></hr>
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <p className="text-content pt-4 font-light">{description}</p>
@@ -13,7 +14,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
         <div className="flex justify-between items-center mt-5">
           <div className="flex items-center">
             <svg
-              className="stroke-dark-heading dark:stroke-white inline-block min-w-fit"
+              className="stroke-dark-heading dark:stroke-Black inline-block min-w-fit"
               width="20"
               height="20"
               viewBox="0 0 20 20"
@@ -37,7 +38,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               href={previewLink}
               target="_blank"
               rel="noreferrer noopener"
-              className="underline pl-2 font-light dark:text-white"
+              className="underline pl-2 font-light dark:text-Black"
             >
               Live Preview
             </a>
@@ -62,7 +63,7 @@ function Project({ title, image, description, techstack, previewLink, githubLink
               href={githubLink}
               target="_blank"
               rel="noreferrer noopener"
-              className="underline pl-2 font-light dark:text-white"
+              className="underline pl-2 font-light dark:text-Black"
             >
               View Code
             </a>

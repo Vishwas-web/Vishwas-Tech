@@ -21,8 +21,8 @@ import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
 import ExtentReport from "./assets/techstack/ExtentReport.png";
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
+import projectImage1 from "./assets/projects/project2.png";
+import projectImage2 from "./assets/projects/project1.png";
 import projectImage3 from "./assets/projects/project3.jpg";
 // import projectImage4 from "./assets/projects/project4.jpg";
 // import projectImage5 from "./assets/projects/project5.jpg";
@@ -120,7 +120,7 @@ export const projectDetails = [
   {
     title: "ActiTime",
     image: projectImage1,
-    description: `Time Management Application it was also 1 tier and Web Did Manual Testing.`,
+    description: `actiTIME is a time tracking software for cost-effective projects that allows to manage projects, teams and clients in a single place.`,
     techstack: "Manaul Testing, Automation Testing",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
@@ -128,8 +128,8 @@ export const projectDetails = [
   {
     title: "OrangHRM-Automation",
     image: projectImage2,
-    description: `An Demo Application in which i did Automation Tester.`,
-    techstack: "HTML/CSS, JavaScript",
+    description: `Application Give your HR team the tools they need to streamline administrative tasks, and make informed decisions.`,
+    techstack: "Manaul Testing, Java, Selenium, TestNg, ExtentReport",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
   },

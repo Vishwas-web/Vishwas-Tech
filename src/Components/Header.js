@@ -1,20 +1,34 @@
-import React, { useState } from "react";
+import React, { useInsertionEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { logos, socialMediaUrl } from "../Details";
+import {socialMediaUrl } from "../Details";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const[nameIndex,setNameIndex]= useState(0);
   const { linkdein, github, twitter } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
+
+  const names=["VISHWAS PATIL", "TESTER", "BUG BASHER"];
+
+  useInsertionEffect(()=>{
+    const intervalId = setInterval(()=>{
+      setNameIndex((prevIndex)=>(prevIndex+1)%names.length);
+    },2000);
+    return ()=>clearInterval(intervalId);
+  },[names.length]);
+
+  // const toggleClass=()=>{
+  //   setIsOpen(!isOpen);
+  // }
 
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">
         <NavLink to="/">
           {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
-          <h1>VISHWAS PATIL</h1>
+          <h1 className=" text-gradient md:text-lg lg:text-xl font-medium">{names[nameIndex]}</h1>
         </NavLink>
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
@@ -60,9 +74,9 @@ function Header() {
             <NavLink to="/contact" onClick={toggleClass}>
               Contact
             </NavLink>
-          </li>
-          <li>
-            <a href="" download class="mt-5 md:mt-0 btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">Download Resume</a> </li>
+            </li>
+            <li>
+          <a href="https://drive.google.com/file/d/1uI1sWehEjR7MnsG_QHVDnFjbqIn-aPPg/view?usp=drive_link" target="_blank" download class="mt-5 md:mt-0 btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">Download Resume</a></li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>

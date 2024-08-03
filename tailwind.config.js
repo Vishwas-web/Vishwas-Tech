@@ -10,8 +10,8 @@ module.exports = {
         "dark-heading": "Black",
         "dark-content": "Black", // Changes the Text
         "light-heading": "Black",
-        "dark-mode": "White",
-        "dark-card": "Black",
+        "dark-mode": "white",
+        "dark-card": "White",
         "green-text": "White",
         "greenbg": "Black",
       },
