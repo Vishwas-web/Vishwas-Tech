@@ -10,7 +10,7 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
-  const names=["VISHWAS PATIL", "TESTER", "BUG BASHER"];
+  const names=["VISHWAS PATIL", "TESTER", "BUG BASHER","AUTOMATION"];
 
   useInsertionEffect(()=>{
     const intervalId = setInterval(()=>{

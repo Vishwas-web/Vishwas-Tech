@@ -137,7 +137,7 @@ export const projectDetails = [
     title: "Project title 3",
     image: projectImage3,
     description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS, JavaScript",
     previewLink: "https://google.com",
     githubLink: "https://github.com",
