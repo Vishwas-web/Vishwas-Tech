@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Vishwas-Tech/static/css/main.a4a2e720.css",
+    "main.js": "/Vishwas-Tech/static/js/main.b4fba23e.js",
+    "static/media/profile.jpg": "/Vishwas-Tech/static/media/profile.53be6a9ee3dc1c0ca5ec.jpg",
+    "static/media/project3.jpg": "/Vishwas-Tech/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/java.png": "/Vishwas-Tech/static/media/java.aaaa73f637215f4d6333.png",
+    "static/media/logo.svg": "/Vishwas-Tech/static/media/logo.0bad282e338a9971ebc84d7e1098fd15.svg",
+    "static/media/logo2.svg": "/Vishwas-Tech/static/media/logo2.8748cd4b53ed338faabde58af993f30a.svg",
+    "index.html": "/Vishwas-Tech/index.html",
+    "main.a4a2e720.css.map": "/Vishwas-Tech/static/css/main.a4a2e720.css.map",
+    "main.b4fba23e.js.map": "/Vishwas-Tech/static/js/main.b4fba23e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4a2e720.css",
+    "static/js/main.b4fba23e.js"
+  ]
+}
