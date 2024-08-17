@@ -38,7 +38,7 @@ function Home() {
           x: "-100%",
           delay: 0.1,
           opacity: 0,
-          duration: 2,
+          duration: 1,
           ease: "Power3.easeOut",
         },
         "<"
@@ -49,7 +49,7 @@ function Home() {
           x: "200%",
           delay: 0.5,
           opacity: 0,
-          duration: 2,
+          duration: 0,
           ease: "Power3.easeOut",
         },
         "<"

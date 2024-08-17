@@ -13,6 +13,7 @@ import js from "./assets/techstack/js.png";
 import java from "./assets/techstack/java.png";
 import react from "./assets/techstack/react.png";
 import bootstrap from "./assets/techstack/bootstrap.png";
+import eclipse from "./assets/techstack/image.png";
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
@@ -46,7 +47,7 @@ export const personalDetails = {
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/vishwas-patil-25b847192/",
   github: "https://github.com/Vishwas-web",
-  twitter: "https://twitter.com/",
+  hackerrank: "https://www.hackerrank.com/profile/Vishwas_patil",
   //instagram: "https://www.instagram.com/",
 };
 
@@ -107,6 +108,7 @@ export const techStackDetails = {
   //sass: sass,
   //tailwind: tailwind,
   bootstrap: bootstrap,
+  eclipse: eclipse,
   vscode: vscode,
   postman: postman,
   npm: npm,
@@ -134,7 +136,7 @@ export const projectDetails = [
     githubLink: "https://github.com",
   },
   {
-    title: "Project title 3",
+    title: "Loading........",
     image: projectImage3,
     description: `This is sample project description random things are here in description This is sample
     project lorem ipsum generator for dummy content`,

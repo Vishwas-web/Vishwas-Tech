@@ -5,7 +5,7 @@ import {socialMediaUrl } from "../Details";
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const[nameIndex,setNameIndex]= useState(0);
-  const { linkdein, github, twitter } = socialMediaUrl;
+  const { linkdein, github, hackerrank } = socialMediaUrl;
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
@@ -76,25 +76,25 @@ function Header() {
             </NavLink>
             </li>
             <li>
-          <a href="https://drive.google.com/file/d/1uI1sWehEjR7MnsG_QHVDnFjbqIn-aPPg/view?usp=drive_link" target="_blank" download class="mt-5 md:mt-0 btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">Download Resume</a></li>
+          <a href="https://drive.google.com/file/d/1uI1sWehEjR7MnsG_QHVDnFjbqIn-aPPg/view?usp=drive_link" target="_blank" rel="noreferrer noopener" download class="mt-5 md:mt-0 btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">Download Resume</a></li>
         </ul>
         <ul className="flex justify-evenly items-center my-5 md:my-0 md:space-x-5 md:mr-5">
           <li>
-            <a href={twitter} target="_blank" rel="noreferrer noopener">
+            <a href={hackerrank} target="_blank" rel="noreferrer noopener" alt="HackerRank">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
                 width="32"
                 height="32"
-                viewBox="0 0 32 32"
+                viewBox="0 0 30 30"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <path d="M16.875 1.875C8.59152 1.875 1.875 8.59152 1.875 16.875C1.875 25.1585 8.59152 31.875 16.875 31.875C25.1585 31.875 31.875 25.1585 31.875 16.875C31.875 8.59152 25.1585 1.875 16.875 1.875ZM24.0837 13.1819C24.0937 13.3393 24.0937 13.5033 24.0937 13.6641C24.0937 18.5792 20.3504 24.2411 13.51 24.2411C11.4007 24.2411 9.44531 23.6283 7.79799 22.5737C8.09933 22.6071 8.38728 22.6205 8.69531 22.6205C10.4364 22.6205 12.0368 22.0312 13.3125 21.0335C11.6786 21 10.3058 19.9286 9.83705 18.4554C10.4096 18.5391 10.9252 18.5391 11.5145 18.3884C10.6732 18.2175 9.91699 17.7605 9.37438 17.0953C8.83178 16.43 8.53623 15.5973 8.53795 14.7388V14.692C9.03013 14.9699 9.60938 15.1406 10.2154 15.1641C9.70595 14.8245 9.28814 14.3645 8.99903 13.8249C8.70993 13.2852 8.55845 12.6825 8.55804 12.0703C8.55804 11.3772 8.73884 10.7444 9.06362 10.1953C9.99744 11.3449 11.1627 12.2851 12.4837 12.9548C13.8047 13.6245 15.2518 14.0088 16.731 14.0826C16.2054 11.5547 18.0938 9.50893 20.3638 9.50893C21.4353 9.50893 22.3996 9.95759 23.0792 10.6808C23.9196 10.5234 24.7232 10.2087 25.4397 9.78683C25.1618 10.6473 24.5792 11.3739 23.8058 11.8326C24.5558 11.7522 25.279 11.5446 25.9487 11.2533C25.4431 11.9967 24.8103 12.6562 24.0837 13.1819Z" />
+                <path d="M 15.998047 3 C 14.225047 3 5.5352031 7.9839062 4.6582031 9.5039062 C 3.7802031 11.024906 3.7802031 20.983047 4.6582031 22.498047 C 5.5392031 24.017047 14.229047 29 15.998047 29 C 17.762047 29 26.451938 24.019953 27.335938 22.501953 C 28.222938 20.979953 28.222938 11.014047 27.335938 9.4980469 L 27.335938 9.4960938 C 26.444937 7.9790937 17.756047 3 15.998047 3 z M 15.996094 5.0117188 C 17.693094 5.3647187 24.417703 9.2167656 25.595703 10.509766 C 26.135703 12.150766 26.134703 19.844281 25.595703 21.488281 C 24.425703 22.779281 17.695094 26.636281 15.996094 26.988281 C 14.298094 26.638281 7.5723906 22.783234 6.4003906 21.490234 C 5.8653906 19.842234 5.8653906 12.155766 6.4003906 10.509766 C 7.5693906 9.2167656 14.297094 5.3617187 15.996094 5.0117188 z M 13 9 L 11 11 L 12 11 L 12 21 L 14 21 L 14 17 L 18 17 L 18 21 L 17 21 L 19 23 L 21 21 L 20 21 L 20 12 L 18 12 L 18 15 L 14 15 L 14 11 L 15 11 L 13 9 z"/>
               </svg>
             </a>
           </li>
           <li>
-            <a href={linkdein} target="_blank" rel="noreferrer noopener">
+            <a href={linkdein} target="_blank" rel="noreferrer noopener" alt="Linkedin">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
                 width="30"
@@ -108,7 +108,7 @@ function Header() {
             </a>
           </li>
           <li>
-            <a href={github} target="_blank" rel="noreferrer noopener">
+            <a href={github} target="_blank" rel="noreferrer noopener" alt="GitHub">
               <svg
                 className="dark:fill-light-heading fill-dark-heading"
                 width="30"
