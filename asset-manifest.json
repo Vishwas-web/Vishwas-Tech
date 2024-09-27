@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/Vishwas-Tech/static/css/main.62af044a.chunk.css",
-    "main.js": "/Vishwas-Tech/static/js/main.8f525ee6.chunk.js",
-    "main.js.map": "/Vishwas-Tech/static/js/main.8f525ee6.chunk.js.map",
-    "runtime~main.js": "/Vishwas-Tech/static/js/runtime~main.5e738c81.js",
-    "runtime~main.js.map": "/Vishwas-Tech/static/js/runtime~main.5e738c81.js.map",
-    "static/js/2.2b5de217.chunk.js": "/Vishwas-Tech/static/js/2.2b5de217.chunk.js",
-    "static/js/2.2b5de217.chunk.js.map": "/Vishwas-Tech/static/js/2.2b5de217.chunk.js.map",
+    "main.css": "/Vishwas-Tech/static/css/main.68edad6a.css",
+    "main.js": "/Vishwas-Tech/static/js/main.e2157339.js",
+    "static/media/profile.jpg": "/Vishwas-Tech/static/media/profile.53be6a9ee3dc1c0ca5ec.jpg",
+    "static/media/project3.jpg": "/Vishwas-Tech/static/media/project3.03535c34c110b7ea292b.jpg",
+    "static/media/java.png": "/Vishwas-Tech/static/media/java.aaaa73f637215f4d6333.png",
+    "static/media/logo.svg": "/Vishwas-Tech/static/media/logo.0bad282e338a9971ebc84d7e1098fd15.svg",
+    "static/media/logo2.svg": "/Vishwas-Tech/static/media/logo2.8748cd4b53ed338faabde58af993f30a.svg",
     "index.html": "/Vishwas-Tech/index.html",
-    "precache-manifest.d9b17fa027d82271a892e16e75264864.js": "/Vishwas-Tech/precache-manifest.d9b17fa027d82271a892e16e75264864.js",
-    "service-worker.js": "/Vishwas-Tech/service-worker.js",
-    "static/css/main.62af044a.chunk.css.map": "/Vishwas-Tech/static/css/main.62af044a.chunk.css.map",
-    "static/media/java.png": "/Vishwas-Tech/static/media/java.2e67ec6c.png",
-    "static/media/logo.svg": "/Vishwas-Tech/static/media/logo.c76dd6f4.svg",
-    "static/media/logo2.svg": "/Vishwas-Tech/static/media/logo2.95072fbc.svg",
-    "static/media/profile.jpg": "/Vishwas-Tech/static/media/profile.ceb33185.jpg",
-    "static/media/project3.jpg": "/Vishwas-Tech/static/media/project3.204b509f.jpg"
-  }
+    "main.68edad6a.css.map": "/Vishwas-Tech/static/css/main.68edad6a.css.map",
+    "main.e2157339.js.map": "/Vishwas-Tech/static/js/main.e2157339.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68edad6a.css",
+    "static/js/main.e2157339.js"
+  ]
 }
