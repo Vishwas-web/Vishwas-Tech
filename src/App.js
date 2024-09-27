@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from "react-router-dom"; // Change to HashRouter
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Home from "./Pages/Home";
@@ -8,8 +8,10 @@ import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 
 function App() {
+  const basename = process.env.NODE_ENV === "production" ? "/Vishwas-Tech" : "";
+
   return (
-    <Router>
+    <Router basename={basename}>
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
