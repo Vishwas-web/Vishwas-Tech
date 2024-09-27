@@ -1,0 +1,8 @@
+{
+    "name": "Vishwas-Tech",
+    "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:0-16", // Using Node.js 16
+    "features": {
+      "node": "16"
+    }
+  }
+  
