@@ -6,7 +6,9 @@ import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <Router basename="/Vishwas-Tech">  {/* Ensure basename is set here */}
-    <App />
-  </Router>
+  <React.StrictMode>
+    <Router basename="/Vishwas-Tech"> {/* Ensure basename is set here */}
+      <App />
+    </Router>
+  </React.StrictMode>
 );
