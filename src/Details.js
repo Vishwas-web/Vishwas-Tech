@@ -58,7 +58,7 @@ export const workDetails = [
     Company: `KCS`,
     Location: "Chh. Sambhaji Nagar",
     Type: "Full Time",
-    Duration: "Oct 2023 - Present",
+    Duration: "Oct 2023 - Oct 2024",
   },
   {
     Position: "Software Tester Intern(Training)",
