@@ -53,6 +53,13 @@ export const socialMediaUrl = {
 
 // Enter your Work Experience here
 export const workDetails = [
+   {
+    Position: "UI Tester",
+    Company: `Thence:`,
+    Location: "Bengaluru",
+    Type: "Full Time",
+    Duration: "Nov 2024 - Present",
+  },
   {
     Position: "Jr.Software Tester",
     Company: `KCS`,
