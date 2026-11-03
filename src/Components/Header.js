@@ -1,6 +1,7 @@
 import React, { useInsertionEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import {socialMediaUrl } from "../Details";
+import ThemeToggle from "./ThemeToggle.js";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,8 +25,8 @@ function Header() {
   // }
 
   return (
-    <header className="container mx-auto md:flex justify-between py-2 max-width">
-      <div className="flex justify-between items-center py-2 md:py-10">
+    <header className="sticky top-0 z-50 w-full md:flex justify-between md:items-center py-2 px-4 md:px-20 bg-white dark:bg-[#0f0f14]">
+      <div className="flex justify-between items-center py-2 md:py-7">
         <NavLink to="/">
           {/* <img className="w-14" src={logos.logogradient} alt="logo" /> */}
           <h1 className=" text-gradient md:text-lg lg:text-xl font-medium">{names[nameIndex]}</h1>
@@ -48,8 +49,8 @@ function Header() {
           </svg>
         </div>
       </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
+      <nav className={` ${!isOpen ? "hidden" : ""} text-center md:flex md:items-center md:gap-10`}>
+        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-30">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
               Home
@@ -124,6 +125,9 @@ function Header() {
                 />
               </svg>
             </a>
+          </li>
+          <li>
+            <ThemeToggle />
           </li>
         </ul>
       </nav>

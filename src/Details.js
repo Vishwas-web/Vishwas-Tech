@@ -58,7 +58,7 @@ export const workDetails = [
     Company: `Thence:`,
     Location: "Bengaluru",
     Type: "Full Time",
-    Duration: "Nov 2024 - Present",
+    Duration: "Nov 2024 - Oct 2026",
   },
   {
     Position: "Jr.Software Tester",
@@ -67,13 +67,13 @@ export const workDetails = [
     Type: "Full Time",
     Duration: "Oct 2023 - Oct 2024",
   },
-  {
-    Position: "Software Tester Intern(Training)",
-    Company: `Cyber Success`,
-    Location: "Pune",
-    Type: "Internship",
-    Duration: "Mar 2023 - Aug 2023",
-  },
+  // {
+  //   Position: "Software Tester Intern(Training)",
+  //   Company: `Cyber Success`,
+  //   Location: "Pune",
+  //   Type: "Internship",
+  //   Duration: "Mar 2023 - Aug 2023",
+  // },
   {
     Position: "UI/UX",
     Company: `Neyx`,
